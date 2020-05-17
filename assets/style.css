@@ -1,0 +1,87 @@
+.main {
+  background-color: gainsboro;
+  margin: 0px;
+
+}
+
+.container {
+  /* background-color: gainsboro; */
+  padding: 30px;
+  margin-top: 30px;
+}
+
+.box1 {
+  background-color: whitesmoke;
+  min-height: 50px;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 10px;
+  }
+
+.box2 {
+  background-color: whitesmoke;
+  min-height: 50px;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  }
+}
+
+.description-city {
+  padding: 0px;
+  margin-top: 0px;
+}
+
+#description-img {
+  float: left;
+  margin-right: 30px;
+
+}
+
+.box1_title {
+  color: teal;
+  font-size: larger;
+}
+
+.compare-fig {
+  height: 400px;
+  width: 500px;
+  padding: 0px;
+  margin: 20px;
+  background-color: #fff;
+
+}
+
+
+.fig {
+  margin-top: 5px;
+  margin-left : 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px;  
+}
+
+.focus_fig {
+  width: 250px;
+  height: 220px;
+}
+
+.zoom {
+  transition: transform 1s; 
+  /* Animation */
+  width: 200px;
+  height: 180px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.2); 
+}
+
+#data{
+  background-color: whitesmoke;
+}
